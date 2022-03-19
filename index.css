@@ -1,0 +1,50 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  background: hsl(218, 23%, 16%);
+  color: hsl(193, 38%, 86%);
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  text-align: center;
+}
+p {
+  color: hsl(150, 100%, 66%);
+}
+
+.box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+  background: hsl(217, 19%, 24%);
+  border-radius: 15px;
+}
+
+.circle {
+  position: absolute;
+  bottom: -25px;
+  background: hsl(150, 100%, 66%);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
